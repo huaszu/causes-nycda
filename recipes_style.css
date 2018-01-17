@@ -1,0 +1,48 @@
+.tiles-for-user-selection {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.tile {
+  float: left;
+  width: 25%;
+  height: 200px;
+  border: 5px solid white;
+  background-size: cover;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.tile-1 {
+  background-image: url("https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/ketchup-pour.jpg?itok=drVffsZn");
+}
+
+.tile-2 {
+  background-image: url("https://video-images.vice.com/articles/594c42ea2e8297313ba66445/lede/1498596955594-homemade-mustard-recipe.jpeg?crop=1xw:0.84375xh;center,center&resize=0:*");
+}
+
+.tile-3 {
+  background-image: url("http://tastykitchen.com/wp-content/uploads/2012/09/Tasty-Kitchen-Blog-Coffee-BBQ-Sauce.jpg");
+}
+
+.tile-4 {
+  background-image: url("http://www.seriouseats.com/recipes/images/20110327-144402-ranch.jpg")
+}
+
+.tile-1:hover {
+  background-image: url("https://media1.s-nbcnews.com/i/newscms/2017_06/1193350/child-ketchup-stock-today-170206-tease_754d86ac3a4c55dad692fc9871090f3a.jpg");
+}
+
+.tile-2:hover {
+  background-image: url("http://del.h-cdn.co/assets/16/12/980x490/landscape-1458570310-delish-deviled-eggs.jpg");
+}
+
+.tile-3:hover {
+  background-image: url("https://fthmb.tqn.com/_I4MJ7Rx8BybzKKIpUfdSaIijkc=/960x0/filters:no_upscale()/Barbecue-sauce-ribs-GettyImages-484811814-589dcc533df78c4758884ec7.jpg");
+}
+
+.tile-4:hover {
+  background-image: url("http://blogchef.net/wp-content/uploads/2012/05/chicken_bacon_ranch_pasta_1.jpg");
+}
