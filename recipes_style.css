@@ -1,3 +1,38 @@
+body{background-color: tomato;}
+
+nav{width:100%;
+background-color:black;
+top:0px;
+left: 0px;
+position: fixed;}
+
+ul {
+  text-align: left;
+}
+
+ul li {display: inline-block;
+padding:10px;
+margin: 15px;
+background-color: black;
+color: red;
+border-radius: 5px;
+border: 1px solid orange;
+list-style-type: none;
+font-size: 20px;
+text-align: left;
+text-decoration:none;
+}
+
+ul li a{
+  color: orange;
+  text-decoration: none;
+  font-family:"Arial", sans-serif;
+}
+
+ul li a:hover {
+  color: tomato;
+}
+
 .tiles-for-user-selection {
   float: left;
   width: 100%;
@@ -45,4 +80,24 @@
 
 .tile-4:hover {
   background-image: url("http://blogchef.net/wp-content/uploads/2012/05/chicken_bacon_ranch_pasta_1.jpg");
+}
+
+.footer ul li {
+    .footer ul {
+      text-align: right;
+      margin-right: 80px;
+    }
+
+    .footer ul li {
+
+    }
+
+    .social {
+      height: 40px;
+    }
+  }
+
+  .social {
+    height: 40px;
+  }
 }
